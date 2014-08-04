@@ -6,12 +6,11 @@ Logs server responsese with method, path, http response code and error data (if 
 
 ```
 npm install --save express-wrangler
-
 ```
 
 ### Use
 
-```
+```javascript
 var express = require('express');
 var expressWrangler = require('express-wrangler');
 
