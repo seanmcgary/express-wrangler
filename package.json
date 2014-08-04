@@ -1,0 +1,28 @@
+{
+  "name": "express-wrangler",
+  "version": "0.1.0",
+  "description": "logwrangler middleware for express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanmcgary/express-wrangler.git"
+  },
+  "keywords": [
+    "express",
+    "logger",
+    "logwrangler",
+    "middleware"
+  ],
+  "author": "Sean McGary <sean@seanmcgary.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanmcgary/express-wrangler/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "logwrangler": "0.0.9"
+  }
+}

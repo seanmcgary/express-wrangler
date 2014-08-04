@@ -1,0 +1,37 @@
+## logwrangler middleware for express
+
+Logs server responsese with method, path, http response code and error data (if applicable)
+
+### Install
+
+```
+npm install --save express-wrangler
+
+```
+
+### Use
+
+```
+var express = require('express');
+var expressWrangler = require('express-wrangler');
+
+var server = express();
+
+server.use(expressWrangler());
+
+// or include logwranger instance
+var logwrangler = require('logwrangler');
+var logger = logwrangler.create({
+	level: logwrangler.level.INFO
+});
+
+logger.setOverrides({
+	ns: 'express'
+});
+
+server.use(expressWrangler({
+	logger: logger
+}));
+
+
+```
