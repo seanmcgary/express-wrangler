@@ -1,6 +1,6 @@
 {
   "name": "express-wrangler",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "logwrangler middleware for express",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
     "url": "https://github.com/seanmcgary/express-wrangler/issues"
   },
   "dependencies": {
-    "lodash": "^3.10.1",
-    "logwrangler": "0.0.9",
+    "lodash": "^4.13.1",
+    "logwrangler": "2.0.0",
     "node-uuid": "^1.4.7"
   }
 }
